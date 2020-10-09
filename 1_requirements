@@ -1,1 +1,28 @@
+Requirements:-
+
+
+Functional requirements:-
+
+Purpose:-
+          To register a new customer
+Inputs:-
+The required data for the registration of a new customer in the bank like(Name,address,Branch etc.,).
+Outputs:-
+A message will be displayed on the screen for successful registration or else an error message will be displayed.
+Non-Functional requirements:-
+
+Hardware requirements:-
+
+ Pentium II and hardware.
+ 512MB of RAM or higher.
+ 800MHz Processor or above.
+20MB of Hard disk space.
+
+
+Software requirements:-
+
+Operating system windows 98 or higher.
+Suitable compiler for the c programming(code blocks in preference
+Optimization of code for the memory
+Sufficient memory for the program
 
