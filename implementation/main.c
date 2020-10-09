@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "main.h"
-#include "test/test_main.h"
+//#include "test/test_main.h"
 
 // Structure declaration
 /*struct acc_type
