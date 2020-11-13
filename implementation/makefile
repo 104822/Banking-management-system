@@ -33,9 +33,6 @@ $(PROJECT_NAME):all
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
 	
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit -lm
-	./$(TEST_OUTPUT)	
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
@@ -51,3 +48,8 @@ clean:
 # Create new build folder if not present
 $(BUILD):
 	mkdir build
+	
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit -lm
+	./$(TEST_OUTPUT)	
+	
