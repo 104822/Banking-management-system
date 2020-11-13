@@ -9,8 +9,16 @@ SRC = main.c\
 src/mainsrc.c\
 
 
+TEST_SRC = src/mainsrc.c\
+test/test_main.c
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 # All include folders with header files
-INC	= -Iinc
+INC	= -Iunity\
+-Iinc\
+-Itest
+
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
