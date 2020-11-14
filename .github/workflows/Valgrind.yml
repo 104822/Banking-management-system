@@ -20,5 +20,5 @@ jobs:
     - name: make test
       run: |
         make test -C Banking-management-system/implementation
-        valgrind Banking-management-system/implementation/main.c
+        valgrind Banking-management-system/implementation/build/main.out
 
